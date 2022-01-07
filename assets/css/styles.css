@@ -77,9 +77,10 @@ h6 {
 .menu h1{
     font-size:2.3rem ;
     color:var(--white) ;
+    color:#230120
 }
 .menu h1 a{
-    color: inherit;
+    color: #230120;
 }
 .main-content {
     max-width: 120rem;
@@ -102,6 +103,7 @@ h6 {
     align-items: flex-end;
     display: inline-flex;
     overflow: hidden;
+    color: #230120;
 }
 
 .menu ul li a {
@@ -110,6 +112,7 @@ h6 {
     font-size: 1.8rem;
     position: relative;
     overflow: hidden;
+    color: #230120;
 }
 .menu ul li a::after {
     content: '';
@@ -258,6 +261,11 @@ h6 {
     min-height: 100vh;
     overflow: hidden;
     align-items: center;
+}
+
+.img-galeria img{
+    max-width: 360px;
+    max-height: 360px;
 }
 
 .img-galeria img:hover{
@@ -415,7 +423,6 @@ body .full-width{
         display: none;
     }
 }
-
 
 
 
